@@ -3,7 +3,7 @@
     <%@taglib prefix ="c" uri="http://java.sun.com/jsp/jstl/core" %>
      <%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>
      
-    <c:set var="context" value="${pageContext.request.contextPath}"/>
+    <c:set var="context" value="${pageContext.request.contextPath}"/> 
     
     <spring:url var="css" value="/resourses/css"/>
     <spring:url var="js" value="/resourses/js"/>
